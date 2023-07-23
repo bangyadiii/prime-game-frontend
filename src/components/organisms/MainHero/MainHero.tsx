@@ -126,7 +126,7 @@ function MainHero() {
                                         <img
                                             src="/img/Header-3.png"
                                             className="rounded-pill"
-                                            alt=""
+                                            alt="header 3"
                                         />
                                         <p className="right-card-support text-white text-xxs text-center position-absolute m-0">
                                             New
