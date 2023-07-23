@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Navlink from "./Navlink";
+import Navlink from "../../molecules/Navlink/Navlink";
 import LoginButton from "./LoginButton";
 import ToggleMenu from "./ToggleMenu";
 

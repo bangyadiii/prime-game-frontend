@@ -1,5 +1,5 @@
 import React from "react";
-import Navlink from "./Navlink";
+import Navlink from "../../molecules/Navlink/Navlink";
 
 function Menu() {
     return (

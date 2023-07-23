@@ -1,7 +1,7 @@
  <?xml version="1.0" encoding="utf-8"?>
  <svg
-    width={60}
-    height={60}
+    width="60"
+    height="60"
     viewBox="0 0 60 60"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
@@ -10,15 +10,15 @@
             id="mask0"
             mask-type="alpha"
             maskUnits="userSpaceOnUse"
-            x={0}
-            y={0}
-            width={60}
-            height={60}
+            x="0"
+            y="0"
+            width="60"
+            height="60"
         >
-            <circle cx={30} cy={30} r={30} fill="#3546AB" />
+            <circle cx="30" cy="30" r="30" fill="#3546AB" />
         </mask>
         <g mask="url(#mask0)">
-            <circle cx={30} cy={30} r={30} fill="#00BAFF" />
+            <circle cx="30" cy="30" r="30" fill="#00BAFF" />
             <path
                 d="M41.5001 35.0001C52.3001 38.2001 49.6668 48.0001 47.0001 52.5001L71.0001 60.5001L79.5001 -12.9999C63.6667 -13.8333 29.5001 -14.9999 19.5001 -12.9999C7.00007 -10.4999 13.5001 4.00006 12.0001 14.0001C10.5001 24.0001 28.0001 31.0001 41.5001 35.0001Z"
                 fill="#4D17E2"
