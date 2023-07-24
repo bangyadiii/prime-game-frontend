@@ -1,10 +1,5 @@
 import SideBar from "@/components/organisms/Sidebar";
-import Image from "next/image";
 import React from "react";
-import GameDesktopIcon from "@/app/assets/svg/game-desktop-icon.svg";
-import GameMobileIcon from "@/app/assets/svg/game-mobile-icon.svg";
-import OtherCategoryIcon from "@/app/assets/svg/other-category-icon.svg";
-import CategoriesCard from "@/components/molecules/CategoriesCard";
 import GameTransactionStat from "@/components/organisms/TopUpCategories";
 import LatestTransactionTable from "@/components/organisms/LatestTransactionTable";
 

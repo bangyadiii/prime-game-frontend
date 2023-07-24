@@ -1,4 +1,4 @@
-import LatestTransactionItem from "@/components/molecules/LatestTransactionItem";
+import LatestTransactionItem from "@/components/molecules/LatestTransactionRow";
 import React from "react";
 
 export default function LatestTransactionTable() {
