@@ -1,7 +1,8 @@
 import Image from "next/image";
 import React from "react";
 import UploadIcon from "@/app/assets/svg/upload.svg";
-import TrashBinIcon from "@/app/assets/svg/trash-bin-icon.svg"
+import TrashBinIcon from "@/app/assets/svg/trash-bin-icon.svg";
+import Input from "@/components/atoms/Input";
 
 export default function SettingsForm() {
     return (
@@ -32,50 +33,26 @@ export default function SettingsForm() {
                 </div>
             </div>
             <div className="pt-30">
-                <label
-                    htmlFor="name"
-                    className="form-label text-lg fw-medium color-palette-1 mb-10"
-                >
-                    Full Name
-                </label>
-                <input
-                    type="text"
-                    className="form-control rounded-pill text-lg"
-                    id="name"
-                    name="name"
-                    aria-describedby="name"
+                <Input
+                    htmlId="name"
+                    htmlName="name"
+                    labelName="Full Name"
                     placeholder="Enter your name"
                 />
             </div>
             <div className="pt-30">
-                <label
-                    htmlFor="email"
-                    className="form-label text-lg fw-medium color-palette-1 mb-10"
-                >
-                    Email Address
-                </label>
-                <input
-                    type="email"
-                    className="form-control rounded-pill text-lg"
-                    id="email"
-                    name="email"
-                    aria-describedby="email"
+                <Input
+                    htmlId="email"
+                    htmlName="email"
+                    labelName="Email"
                     placeholder="Enter your email address"
                 />
             </div>
             <div className="pt-30">
-                <label
-                    htmlFor="phone"
-                    className="form-label text-lg fw-medium color-palette-1 mb-10"
-                >
-                    Phone
-                </label>
-                <input
-                    type="tel"
-                    className="form-control rounded-pill text-lg"
-                    id="phone"
-                    name="phone"
-                    aria-describedby="phone"
+                <Input
+                    htmlId="phone"
+                    htmlName="phone"
+                    labelName="Phone"
                     placeholder="Enter your phone number"
                 />
             </div>

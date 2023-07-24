@@ -25,7 +25,7 @@ export default function SideBar({ activeMenu }: SidebarProps) {
                             />
                         );
                     })}
-                P</div>
+                </div>
             </div>
         </section>
     );
