@@ -6,7 +6,7 @@ import LatestTransactionTable from "@/components/organisms/LatestTransactionTabl
 export default function Page() {
     return (
         <section className="overview overflow-auto">
-            <SideBar />
+            <SideBar  activeMenu="overview"/>
             <main className="main-wrapper">
                 <div className="ps-lg-0">
                     <h2 className="text-4xl fw-bold color-palette-1 mb-30">

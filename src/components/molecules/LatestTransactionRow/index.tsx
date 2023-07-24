@@ -9,6 +9,7 @@ type LatestTransactionItemProps = {
     amount: number;
     price: number;
     trxStatus: "Pending" | "Success" | "Failed";
+    actionButton?: any;
 };
 
 export default function LatestTransactionItem({
@@ -18,6 +19,7 @@ export default function LatestTransactionItem({
     gameName,
     price,
     trxStatus,
+    actionButton,
 }: LatestTransactionItemProps) {
     return (
         <tr className="align-middle center">
@@ -51,13 +53,14 @@ export default function LatestTransactionItem({
             <td>
                 <div>
                     <span
-                        className={`float-start icon-status  ${trxStatus.toLocaleLowerCase()}`}
+                        className={`float-start icon-status  ${trxStatus.toLowerCase()}`}
                     />
                     <p className="fw-medium text-start color-palette-1 m-0 position-relative">
                         {trxStatus}
                     </p>
                 </div>
             </td>
+            {actionButton !== undefined && actionButton}
         </tr>
     );
 }
