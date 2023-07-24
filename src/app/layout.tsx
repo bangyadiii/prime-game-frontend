@@ -14,6 +14,7 @@ import "@/app/assets/css/transactions.css";
 import "@/app/assets/css/sidebar.css";
 import "@/app/assets/css/edit-profile.css";
 import "@/app/assets/css/navbar-log-in.css";
+import "@/app/assets/css/overview.css";
 
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
