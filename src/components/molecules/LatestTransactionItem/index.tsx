@@ -50,7 +50,9 @@ export default function LatestTransactionItem({
             </td>
             <td>
                 <div>
-                    <span className="float-start icon-status pending" />
+                    <span
+                        className={`float-start icon-status  ${trxStatus.toLocaleLowerCase()}`}
+                    />
                     <p className="fw-medium text-start color-palette-1 m-0 position-relative">
                         {trxStatus}
                     </p>
