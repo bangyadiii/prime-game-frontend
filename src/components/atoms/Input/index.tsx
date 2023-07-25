@@ -7,7 +7,13 @@ type InputProps = {
     placeholder: string;
 };
 
-export default function Input({ htmlId, htmlName, labelName, placeholder }: InputProps) {
+export default function Input({
+    htmlId,
+    htmlName,
+    labelName,
+    placeholder,
+    ...nativeProps
+}: InputProps) {
     return (
         <>
             <label
@@ -23,6 +29,7 @@ export default function Input({ htmlId, htmlName, labelName, placeholder }: Inpu
                 name={htmlName}
                 aria-describedby="phone"
                 placeholder={placeholder}
+                {...nativeProps}
             />
         </>
     );

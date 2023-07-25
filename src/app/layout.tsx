@@ -51,11 +51,6 @@ export default function RootLayout({
                 src="https://unpkg.com/aos@2.3.1/dist/aos.js"
                 async
             ></Script>
-            <Script
-                src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-                crossOrigin="anonymous"
-            ></Script>
 
             <body className={inter.className}>{children}</body>
         </html>
