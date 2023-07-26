@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import AOS from "aos";
 import { useEffect } from "react";
 import Navbar from "@/components/organisms/Navbar/Navbar";
@@ -8,7 +7,6 @@ import TransactionStep from "@/components/organisms/TransactionStep";
 import FeaturedGame from "@/components/organisms/FeaturedGame";
 import Reached from "@/components/organisms/Reached";
 import Footer from "@/components/organisms/Footer";
-import Link from "next/link";
 import Story from "@/components/organisms/Story";
 
 export default function Home() {

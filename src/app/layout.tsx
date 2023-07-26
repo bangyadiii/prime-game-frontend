@@ -20,6 +20,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Head from "next/head";
 import Script from "next/script";
+// In app directory
+import Providers from "@/utils/Providers";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -52,7 +54,9 @@ export default function RootLayout({
                 async
             ></Script>
 
-            <body className={inter.className}>{children}</body>
+            <body className={inter.className}>
+                <Providers>{children}</Providers>
+            </body>
         </html>
     );
 }
