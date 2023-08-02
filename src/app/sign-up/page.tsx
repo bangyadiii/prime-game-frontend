@@ -1,4 +1,4 @@
-import LogoApp from "@/app/assets/svg/logo.svg";
+import LogoApp from "@/assets/svg/logo.svg";
 import SignupForm from "@/components/organisms/SignUpForm";
 import Link from "next/link";
 

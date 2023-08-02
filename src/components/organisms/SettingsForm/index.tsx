@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import UploadIcon from "@/app/assets/svg/upload.svg";
-import TrashBinIcon from "@/app/assets/svg/trash-bin-icon.svg";
+import UploadIcon from "@/assets/svg/upload.svg";
+import TrashBinIcon from "@/assets/svg/trash-bin-icon.svg";
 import Input from "@/components/atoms/Input";
 
 export default function SettingsForm() {

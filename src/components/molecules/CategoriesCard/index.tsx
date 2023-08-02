@@ -1,5 +1,5 @@
 import React from "react";
-import GameDesktopIcon from "@/app/assets/svg/game-desktop-icon.svg";
+import GameDesktopIcon from "@/assets/svg/game-desktop-icon.svg";
 import currency from "currency.js";
 
 type CategoriesCardProps = {

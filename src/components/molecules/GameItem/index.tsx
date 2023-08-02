@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import GameControllerIcon from "@/app/assets/svg/game-controller-icon.svg";
+import GameControllerIcon from "@/assets/svg/game-controller-icon.svg";
 
 interface GameItemProps {
     gameName: string;

@@ -1,5 +1,5 @@
 import React from "react";
-import LogoApp from "@/app/assets/svg/logo.svg";
+import LogoApp from "@/assets/svg/logo.svg";
 import Link from "next/link";
 
 export default function SignInForm() {

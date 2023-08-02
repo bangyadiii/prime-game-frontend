@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import StarIcon from "@/app/assets/svg/star.svg";
+import StarIcon from "@/assets/svg/star.svg";
 
 function ReviewItem() {
     return (

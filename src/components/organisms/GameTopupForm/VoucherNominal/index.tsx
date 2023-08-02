@@ -1,5 +1,5 @@
 import React from "react";
-import IconCheck from "@/app/assets/svg/icon-check.svg";
+import IconCheck from "@/assets/svg/icon-check.svg";
 import Image from "next/image";
 import currency from "currency.js";
 

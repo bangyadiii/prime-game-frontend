@@ -1,7 +1,7 @@
 import React from "react";
-import FeatureFillIcon from "@/app/assets/svg/feature-fillup-icon.svg";
-import FeatureStarIcon from "@/app/assets/svg/feature-start-icon.svg";
-import FeatureFinishIcon from "@/app/assets/svg/feature-finish-icon.svg";
+import FeatureFillIcon from "@/assets/svg/feature-fillup-icon.svg";
+import FeatureStarIcon from "@/assets/svg/feature-start-icon.svg";
+import FeatureFinishIcon from "@/assets/svg/feature-finish-icon.svg";
 import StepItem from "@/components/molecules/StepItem";
 
 function TransactionStep() {

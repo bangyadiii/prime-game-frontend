@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import LogoApp from "@/app/assets/svg/logo.svg";
+import LogoApp from "@/assets/svg/logo.svg";
 
 function Footer() {
     return (
@@ -10,7 +10,7 @@ function Footer() {
                     <div className="row">
                         <div className="col-lg-4 text-lg-start text-center">
                             <Link href="" className="mb-30">
-                                <LogoApp width={60} height={60}/>
+                                <LogoApp width={60} height={60} />
                             </Link>
                             <p className="mt-30 text-lg color-palette-1 mb-30">
                                 Prime Game membantu gamers

@@ -1,10 +1,10 @@
-import OverviewIcon from "@/app/assets/svg/sidebar/overview.svg";
-import TransactionIcon from "@/app/assets/svg/sidebar/transaction-icon.svg";
-import MessageIcon from "@/app/assets/svg/sidebar/message-icon.svg";
-import CardIcon from "@/app/assets/svg/sidebar/card-icon.svg";
-import RewardIcon from "@/app/assets/svg/sidebar/reward-icon.svg";
-import SettingIcon from "@/app/assets/svg/sidebar/setting-icon.svg";
-import LogoutIcon from "@/app/assets/svg/sidebar/logout-icon.svg";
+import OverviewIcon from "@/assets/svg/sidebar/overview.svg";
+import TransactionIcon from "@/assets/svg/sidebar/transaction-icon.svg";
+import MessageIcon from "@/assets/svg/sidebar/message-icon.svg";
+import CardIcon from "@/assets/svg/sidebar/card-icon.svg";
+import RewardIcon from "@/assets/svg/sidebar/reward-icon.svg";
+import SettingIcon from "@/assets/svg/sidebar/setting-icon.svg";
+import LogoutIcon from "@/assets/svg/sidebar/logout-icon.svg";
 
 export const sidebarList = [
     {

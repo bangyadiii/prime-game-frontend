@@ -1,7 +1,7 @@
 import React from "react";
-import GameDesktopIcon from "@/app/assets/svg/game-desktop-icon.svg";
-import GameMobileIcon from "@/app/assets/svg/game-mobile-icon.svg";
-import OtherCategoryIcon from "@/app/assets/svg/other-category-icon.svg";
+import GameDesktopIcon from "@/assets/svg/game-desktop-icon.svg";
+import GameMobileIcon from "@/assets/svg/game-mobile-icon.svg";
+import OtherCategoryIcon from "@/assets/svg/other-category-icon.svg";
 import CategoriesCard from "@/components/molecules/CategoriesCard";
 
 export default function GameTransactionStat() {

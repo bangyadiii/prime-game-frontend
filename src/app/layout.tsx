@@ -1,20 +1,20 @@
 // add bootstrap css
 import "bootstrap/dist/css/bootstrap.css";
-import "@/app/assets/css/homepage.css";
-import "@/app/assets/css/utilities.css";
-import "@/app/assets/css/detail.css";
-import "@/app/assets/css/checkout.css";
-import "@/app/assets/css/complete-checkout.css";
-import "@/app/assets/css/sign-in.css";
-import "@/app/assets/css/sign-up.css";
-import "@/app/assets/css/sign-up-photo-success.css";
-import "@/app/assets/css/sign-up-photo.css";
-import "@/app/assets/css/transactions-detail.css";
-import "@/app/assets/css/transactions.css";
-import "@/app/assets/css/sidebar.css";
-import "@/app/assets/css/edit-profile.css";
-import "@/app/assets/css/navbar-log-in.css";
-import "@/app/assets/css/overview.css";
+import "@/assets/css/homepage.css";
+import "@/assets/css/utilities.css";
+import "@/assets/css/detail.css";
+import "@/assets/css/checkout.css";
+import "@/assets/css/complete-checkout.css";
+import "@/assets/css/sign-in.css";
+import "@/assets/css/sign-up.css";
+import "@/assets/css/sign-up-photo-success.css";
+import "@/assets/css/sign-up-photo.css";
+import "@/assets/css/transactions-detail.css";
+import "@/assets/css/transactions.css";
+import "@/assets/css/sidebar.css";
+import "@/assets/css/edit-profile.css";
+import "@/assets/css/navbar-log-in.css";
+import "@/assets/css/overview.css";
 
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";

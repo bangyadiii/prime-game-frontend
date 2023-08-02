@@ -1,4 +1,4 @@
-import LogoApp from "@/app/assets/svg/logo.svg";
+import LogoApp from "@/assets/svg/logo.svg";
 import CheckoutConfirmation from "@/components/organisms/CheckoutConfirmation";
 import CheckoutDetail from "@/components/organisms/CheckoutDetail";
 import CheckoutItem from "@/components/organisms/CheckoutItem";

@@ -1,4 +1,4 @@
-import UploadAvatarIcon from "@/app/assets/svg/upload.svg";
+import UploadAvatarIcon from "@/assets/svg/upload.svg";
 import Link from "next/link";
 
 export default function Page() {
@@ -11,7 +11,10 @@ export default function Page() {
                             <div className="mb-20">
                                 <div className="image-upload text-center">
                                     <label htmlFor="avatar">
-                                        <UploadAvatarIcon width={120} height={120} />
+                                        <UploadAvatarIcon
+                                            width={120}
+                                            height={120}
+                                        />
                                     </label>
                                     <input
                                         id="avatar"
